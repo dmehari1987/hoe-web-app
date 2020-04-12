@@ -1,0 +1,36 @@
+:root {
+  --mainDark: #343a40;
+  --mainGrey: rgba(109, 109, 109);
+  --mainLightGrey: rgba(172, 172, 172);
+  --mainWhite: #fff;
+  --mainBlue: #007bff;
+}
+
+.navbar {
+  color: #66B3BA;
+  
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+
+.aboutus {
+  width: 70%;
+  /* max-width: 400px; */
+  padding-left: 300px;
+  text-align: justify;
+  align-content: center;
+}
