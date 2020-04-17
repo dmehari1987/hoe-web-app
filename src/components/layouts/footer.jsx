@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 import styled from "styled-components";
 
 function Footer() {
@@ -19,28 +20,28 @@ function Footer() {
                     <div className="col-md-3 col-sm-6">
                         <h4>Lorem</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <h4>Lorem</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
                         </ul>
                     </div>
                     <div className="col-md-3 col-sm-6">
                         <h4>Lorem</h4>
                         <ul className="list-unstyled">
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Lorem Ipsum</a></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
+                            <li><Link to="#">Lorem Ipsum</Link></li>
                         </ul>
                     </div>
                 </div>

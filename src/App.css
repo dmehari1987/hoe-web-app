@@ -34,3 +34,14 @@
   text-align: justify;
   align-content: center;
 }
+
+.container {
+  background-color: ##4CAF50;
+  border-style: solid 5px black;
+  border-color: #343a40;
+  width: 70%;
+  /* max-width: 400px; */
+  padding-left: 300px;
+  text-align: justify;
+  align-content: center;
+}

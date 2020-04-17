@@ -5,8 +5,8 @@ import logo from "../../logo.svg"
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-            <a className="navbar-brand ml-5" href="#" > <img src= {logo} 
-                alt= "logo" style= {{ width: '35px'}}/> </a>
+            <Link className="navbar-brand ml-5" to="#" > <img src= {logo} 
+                alt= "logo" style= {{ width: '35px'}}/> </Link>
             <button className="navbar-toggler" 
                     type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
                     aria-controls="navbarSupportedContent" aria-expanded="false" 

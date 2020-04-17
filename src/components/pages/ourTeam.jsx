@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Chairman from '../../images/chairman.png';
 import CEO from '../../images/ceo.jpg';
 import Principal from '../../images/principal.png';
@@ -23,19 +24,19 @@ const OurTeam = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad placeat nesc!</p>
                                 <div className="d-flex flex-row justify-content-center">
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-facebook"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-twitter"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -50,19 +51,19 @@ const OurTeam = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad placeat nesc!</p>
                                 <div className="d-flex flex-row justify-content-center">
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-facebook"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-twitter"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -77,19 +78,19 @@ const OurTeam = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.!</p>
                                 <div className="d-flex flex-row justify-content-center">
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-facebook"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-twitter"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -104,19 +105,19 @@ const OurTeam = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ad placeat nesc!</p>
                                 <div className="d-flex flex-row justify-content-center">
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-facebook"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-twitter"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                     <div className= "p-4">
-                                        <a href="">
+                                        <Link to="">
                                             <i className= "fa fa-instagram"></i>
-                                        </a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

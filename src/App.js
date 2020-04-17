@@ -5,6 +5,7 @@ import Footer from "./components/layouts/footer"
 import Home from "./components/pages/home";
 import AboutUs from "./components/pages/aboutUs";
 import ContactUs from "./components/pages/contactUs";
+import Apply from './components/common/apply';
 import Details from "./components/pages/details";
 import SignUp from "./components/pages/signUp";
 import Login from "./components/pages/login";
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path="/" component={ Home }/>
           <Route path="/aboutus" component={ AboutUs }/>
           <Route path="/contactus" component={ ContactUs }/>
+          <Route path="/apply" component={ Apply }/>
           <Route path= "/signup" component= { SignUp} />
           <Route path="/login" component={ Login }/>
           <Route path="/details" component={ Details }/>

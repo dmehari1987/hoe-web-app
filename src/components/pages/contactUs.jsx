@@ -37,6 +37,7 @@ class ContactUs extends Component {
                     <hr />
                     <h5>Address</h5>
                     <p>Street: Zelet, Shahafa, Khartoum, Sudan</p>
+                    <Link to= "/apply" >apply for job</Link>
                     </div>
                 </div>
                 
